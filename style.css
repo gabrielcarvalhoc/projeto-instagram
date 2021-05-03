@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    font: 14px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    height: 45rem;
+}
+
+.instagram-continue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    min-height: 34rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontal nesse caso*/
+    justify-content: space-between; /* vertical nesse caso*/
+    background-color: #fff;
+    padding: 1.3rem 0;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+}
+
+.box:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    height: 6rem;
+}
+
+.instagram-login{
+    background-color: #0095f6;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.not-account {
+    color: #a0a0a0;
+    font-weight: 600;
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.get-app {
+    font-weight: 600;
+}
+
+.download-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+}
+
+.button img {
+    height: 3rem;
+    width: 10rem;
+}
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .body {
+        background-color: #fff;
+    }
+   
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .box {
+        border: 0;
+    }
+}
