@@ -1,4 +1,4 @@
-# Projeto - Recriando a Página Inicial do Instagram :camera:
+# Recriando a Página Inicial do Instagram :camera:
 
 Seja bem vindo! Neste meu primeiro projeto, reconstruí a interface inicial do Instagram!
 
